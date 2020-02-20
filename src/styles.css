@@ -1,0 +1,39 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#title {
+  text-align: center;
+  font-family: arial, sans-serif;
+}
+
+#userList {
+  text-align: center;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border: 3px solid #ddd;
+  width: 100%;
+}
+
+#userList td,
+#userList th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#userList tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#userList tr:hover {
+  background-color: #ddd;
+}
+
+#userList th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #4caf50;
+  color: white;
+}
